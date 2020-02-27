@@ -17,10 +17,10 @@ def sequence():
 
 def write_sequence(filename, num):
     """Write Receman's sequence to a text file."""
-    f = open(filename, mode='wt', encoding='utf-8')
-    f.writelines(f"{r}\n"
-                 for r in islice(sequence(), num + 1))
-    f.close()
+    # Edit to use with block so no need to close file
+    with open(filename, mode='wt', encoding='utf-8') as f:
+        f.writelines(f"{r}\n"
+                        for r in islice(sequence(), num + 1))
 
 if __name__ == '__main__':
     write_sequence(filename=sys.argv[1], num=int(sys.argv[2]))

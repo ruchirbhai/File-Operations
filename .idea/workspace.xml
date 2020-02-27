@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recaman_sequence.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="recaman_sequence.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recaman_sequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="series.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="series.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/series.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -66,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/files.py" />
-        <option value="$PROJECT_DIR$/recaman_sequence.py" />
         <option value="$PROJECT_DIR$/series.py" />
+        <option value="$PROJECT_DIR$/recaman_sequence.py" />
       </list>
     </option>
   </component>
@@ -351,21 +351,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recaman_sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recaman_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
