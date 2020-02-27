@@ -3,13 +3,11 @@ import sys
 
 
 def read_series(filename):
-    try:
-        #refactor Code to use comprehension
-        f = open(filename, mode='rt', encoding='utf-8')
-        return [int(line.strip()) for line in f]
+    # refactor Code to use comprehension
+    # edit 2: Use with block and remove explict close
 
-    finally:
-        f.close()
+    with open(filename, mode='rt', encoding='utf-8') as f:
+        return [int(line.strip()) for line in f]
 
 def main(filename):
     series = read_series(filename)
